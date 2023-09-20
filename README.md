@@ -1,5 +1,3 @@
-# WeatherApp README
-
 ## Overview
 
 Welcome to the WeatherApp, a simple and user-friendly weather application built using React and integrated with the OpenWeatherMap API. The app provides real-time weather updates for any location around the world, along with a visually appealing design created using pixel art by me.
