@@ -36,7 +36,7 @@ const WeatherApp =  () => {
         // converting it to json to use 
 
         let response = await fetch(url);
-        let data = await response.json();
+        let data = await response.json(); 
 
         // creating variables from my element class names in html
 
@@ -98,14 +98,16 @@ const WeatherApp =  () => {
 
 
     }
+     
 
 
     return(
         <div className="container">
 
             <div className="top-bar">
-
+      
                 <input type="text" className="cityInput" placeholder='Search' />
+                
                 <div className="search-icon" onClick={() =>{search()}}>
 
                 <img src={search_icon} alt="" /></div>
